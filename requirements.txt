@@ -1,0 +1,8 @@
+
+carla
+ultralytics
+numpy
+opencv-python
+torch
+supervision
+deep_sort_realtime

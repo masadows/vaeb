@@ -1,0 +1,133 @@
+==================================================
+RAPORT KOŃCOWY
+==================================================
+                                                      name            result  min_distance  brake_reaction_time  stopped
+0                              False Positive - Empty Road    PASS (Timeout)           inf                  NaN    False
+1                    Lead Vehicle Braking (Start Dist 10m)    PASS (Stopped)      6.685126             0.237146     True
+2                    Lead Vehicle Braking (Start Dist 10m)    PASS (Stopped)     10.235480             0.309513     True
+3                    Lead Vehicle Braking (Start Dist 20m)    PASS (Stopped)      7.639936             0.236789     True
+4                    Lead Vehicle Braking (Start Dist 15m)    PASS (Stopped)      7.468941             0.243557     True
+5                    Lead Vehicle Braking (Start Dist 25m)  FAIL (Collision)      4.662686             0.552990     True
+6                                     Stationary Car @ 10m    PASS (Stopped)      7.479967             0.230052     True
+7                                     Stationary Car @ 20m    PASS (Stopped)     10.231833             0.232859     True
+8                                     Stationary Car @ 30m  FAIL (Collision)      4.581087             0.234116     True
+9                                     Stationary Car @ 40m  FAIL (Collision)      4.610178             0.236977     True
+10                                    Stationary Car @ 50m    PASS (Stopped)     13.372705             0.387151     True
+11                                    Stationary Car @ 30m    PASS (Stopped)     10.811260             0.231662     True
+12                                    Stationary Car @ 40m  FAIL (Collision)      4.533035             0.233005     True
+13                                    Stationary Car @ 80m    PASS (Stopped)      9.900849             0.525935     True
+14                                   Stationary Car @ 100m    PASS (Stopped)      9.316476             0.999911     True
+15                                    Stationary Car @ 60m  FAIL (Collision)      4.507952             0.321073     True
+16                                   Stationary Car @ 120m  FAIL (Collision)      4.615745             1.590867     True
+17   Suicidal Homing Pedestrian (Trigger 40m, Stop @ 2.5m)    PASS (Stopped)      4.103870             2.013198     True
+18   Suicidal Homing Pedestrian (Trigger 15m, Stop @ 2.5m)    PASS (Stopped)      3.808185             0.236212     True
+19   Suicidal Homing Pedestrian (Trigger 25m, Stop @ 2.5m)    PASS (Timeout)      1.518969             0.735571    False
+20                     Pedestrian Crossing (Trigger 12.0m)    PASS (Stopped)      4.647080             0.957139     True
+21                     Pedestrian Crossing (Trigger 20.0m)    PASS (Timeout)      6.334808             0.660625    False
+22                     Pedestrian Crossing (Trigger 10.0m)  FAIL (Collision)      2.360570             0.681508    False
+23                     Pedestrian Crossing (Trigger 15.0m)    PASS (Timeout)      4.935168             0.680971    False
+24                     Pedestrian Crossing (Trigger 17.0m)    PASS (Timeout)      4.820297             0.585809    False
+25                   Obstructed Pedestrian (Trigger 10.0m)  FAIL (Collision)      1.474715             0.538089    False
+26                   Obstructed Pedestrian (Trigger 12.0m)  FAIL (Collision)      1.505726             0.685160    False
+27                   Obstructed Pedestrian (Trigger 15.0m)    PASS (Stopped)      4.158432             0.683700     True
+28                   Obstructed Pedestrian (Trigger 18.0m)  FAIL (Collision)      1.521886                  NaN    False
+29                  Oncoming Traffic (Offset 3.5m, 40km/h)    PASS (Timeout)      3.494605             0.678594    False
+30                  Oncoming Traffic (Offset 3.5m, 60km/h)    PASS (Timeout)      3.513436             0.833000    False
+31                  Oncoming Traffic (Offset 1.5m, 30km/h)  FAIL (Collision)      4.686101             0.590101     True
+32                  Oncoming Traffic (Offset 1.0m, 60km/h)  FAIL (Collision)      4.746413             0.578269     True
+33                  Oncoming Traffic (Offset 0.0m, 50km/h)    PASS (Stopped)      7.812092             1.088783     True
+34                   Cut-In (StartDist 15.0m, Offset 3.5m)    PASS (Stopped)     11.876299             0.687528     True
+35                    Cut-In (StartDist 8.0m, Offset 3.5m)    PASS (Stopped)      7.757550             0.548792     True
+36                    Cut-In (StartDist 5.0m, Offset 3.5m)    PASS (Timeout)      5.875799             0.583939    False
+37                    Cut-In (StartDist 5.0m, Offset 3.5m)    PASS (Stopped)      6.150939             0.593865     True
+38                   Cut-In (StartDist 10.0m, Offset 3.5m)    PASS (Stopped)      9.233401             0.630998     True
+39                Obstacle on Curve (Dist 40.0m, 30.0km/h)    PASS (Stopped)      7.678090             0.782527     True
+40                Obstacle on Curve (Dist 60.0m, 50.0km/h)  FAIL (Collision)      4.204792             1.312069     True
+41                Obstacle on Curve (Dist 25.0m, 30.0km/h)  FAIL (Collision)      4.159712             0.771881     True
+42                Obstacle on Curve (Dist 60.0m, 30.0km/h)    PASS (Stopped)      6.773157             0.618948     True
+43                             False Positive - Empty Road    PASS (Timeout)           inf             4.295791    False
+44                   Lead Vehicle Braking (Start Dist 10m)    PASS (Timeout)     10.629822             0.221220    False
+45                   Lead Vehicle Braking (Start Dist 10m)    PASS (Stopped)     10.373436             0.194709     True
+46                   Lead Vehicle Braking (Start Dist 20m)  FAIL (Collision)      4.589258             0.214730     True
+47                   Lead Vehicle Braking (Start Dist 15m)  FAIL (Collision)      4.614013             0.323728     True
+48                   Lead Vehicle Braking (Start Dist 25m)  FAIL (Collision)      4.820573             0.592015     True
+49                                    Stationary Car @ 10m    PASS (Stopped)      7.149588             0.223718     True
+50                                    Stationary Car @ 20m    PASS (Stopped)      7.722651             0.225706     True
+51                                    Stationary Car @ 30m    PASS (Stopped)     11.472493             0.223448     True
+52                                    Stationary Car @ 40m    PASS (Stopped)      9.403654             0.320282     True
+53                                    Stationary Car @ 50m    PASS (Stopped)     11.138507             0.289585     True
+54                                    Stationary Car @ 30m  FAIL (Collision)      4.651466             0.239163     True
+55                                    Stationary Car @ 40m  FAIL (Collision)      4.577187             0.242992     True
+56                                    Stationary Car @ 80m    PASS (Stopped)     10.659969             0.513837     True
+57                                   Stationary Car @ 100m    PASS (Stopped)      5.942726             0.222112     True
+58                                    Stationary Car @ 60m  FAIL (Collision)      4.465143             0.289625     True
+59                                   Stationary Car @ 120m  FAIL (Collision)      4.640848             1.512273     True
+60   Suicidal Homing Pedestrian (Trigger 40m, Stop @ 2.5m)    PASS (Stopped)      2.944852             1.965394     True
+61   Suicidal Homing Pedestrian (Trigger 15m, Stop @ 2.5m)    PASS (Stopped)      2.785997             0.735454     True
+62   Suicidal Homing Pedestrian (Trigger 25m, Stop @ 2.5m)    PASS (Timeout)      1.551789             0.843243    False
+63                     Pedestrian Crossing (Trigger 12.0m)  FAIL (Collision)      2.096697             0.592918    False
+64                     Pedestrian Crossing (Trigger 20.0m)    PASS (Timeout)      6.334829             0.219236    False
+65                     Pedestrian Crossing (Trigger 10.0m)  FAIL (Collision)      2.308719             0.886505    False
+66                     Pedestrian Crossing (Trigger 15.0m)    PASS (Timeout)      3.611516             0.218910    False
+67                     Pedestrian Crossing (Trigger 17.0m)    PASS (Timeout)      4.962300             0.220896    False
+68                   Obstructed Pedestrian (Trigger 10.0m)  FAIL (Collision)      1.451388             0.667386    False
+69                   Obstructed Pedestrian (Trigger 12.0m)  FAIL (Collision)      1.478857             0.232668    False
+70                   Obstructed Pedestrian (Trigger 15.0m)    PASS (Timeout)      2.805222             0.381520    False
+71                   Obstructed Pedestrian (Trigger 18.0m)  FAIL (Collision)      1.525462             1.412454    False
+72                  Oncoming Traffic (Offset 3.5m, 40km/h)    PASS (Timeout)      3.497959             0.535820    False
+73                  Oncoming Traffic (Offset 3.5m, 60km/h)    PASS (Timeout)      3.542197             0.573051    False
+74                  Oncoming Traffic (Offset 1.5m, 30km/h)  FAIL (Collision)      4.683233             0.236934     True
+75                  Oncoming Traffic (Offset 1.0m, 60km/h)  FAIL (Collision)      4.693365             0.582702     True
+76                  Oncoming Traffic (Offset 0.0m, 50km/h)    PASS (Stopped)      7.896233             0.773170     True
+77                   Cut-In (StartDist 15.0m, Offset 3.5m)    PASS (Stopped)      9.823706             0.668982     True
+78                    Cut-In (StartDist 8.0m, Offset 3.5m)    PASS (Stopped)      7.059773             0.596164     True
+79                    Cut-In (StartDist 5.0m, Offset 3.5m)    PASS (Timeout)      6.497530             0.663737    False
+80                    Cut-In (StartDist 5.0m, Offset 3.5m)    PASS (Stopped)      5.940559             0.225441     True
+81                   Cut-In (StartDist 10.0m, Offset 3.5m)    PASS (Stopped)      7.534196             0.589294     True
+82                Obstacle on Curve (Dist 40.0m, 30.0km/h)    PASS (Stopped)      7.037253             1.780505     True
+83                Obstacle on Curve (Dist 60.0m, 50.0km/h)  FAIL (Collision)      4.143208             1.738614     True
+84                Obstacle on Curve (Dist 25.0m, 30.0km/h)    PASS (Stopped)      7.717069             0.850995     True
+85                Obstacle on Curve (Dist 60.0m, 30.0km/h)    PASS (Stopped)      6.103930             1.733855     True
+86                             False Positive - Empty Road    PASS (Timeout)           inf             3.471575    False
+87                   Lead Vehicle Braking (Start Dist 10m)    PASS (Stopped)      9.611897             0.243428     True
+88                   Lead Vehicle Braking (Start Dist 10m)    PASS (Timeout)     10.220348             0.239682    False
+89                   Lead Vehicle Braking (Start Dist 20m)    PASS (Stopped)     11.432801             0.237987     True
+90                   Lead Vehicle Braking (Start Dist 15m)    PASS (Stopped)      8.516654             0.238370     True
+91                   Lead Vehicle Braking (Start Dist 25m)  FAIL (Collision)      4.535869             0.237283     True
+92                                    Stationary Car @ 10m    PASS (Stopped)      7.508939             0.240793     True
+93                                    Stationary Car @ 20m    PASS (Stopped)     13.659601             0.241450     True
+94                                    Stationary Car @ 30m  FAIL (Collision)      4.543968             0.242931     True
+95                                    Stationary Car @ 40m    PASS (Stopped)     18.774199             0.553890     True
+96                                    Stationary Car @ 50m    PASS (Stopped)     12.271341             0.309695     True
+97                                    Stationary Car @ 30m  FAIL (Collision)      4.554110             0.239935     True
+98                                    Stationary Car @ 40m  FAIL (Collision)      4.618295             0.319218     True
+99                                    Stationary Car @ 80m    PASS (Stopped)     12.952310             0.389614     True
+100                                  Stationary Car @ 100m    PASS (Stopped)     12.390749             0.932369     True
+101                                   Stationary Car @ 60m  FAIL (Collision)      4.693993             0.253888     True
+102                                  Stationary Car @ 120m  FAIL (Collision)      4.578486             1.476446     True
+103  Suicidal Homing Pedestrian (Trigger 40m, Stop @ 2.5m)  FAIL (Collision)      2.551796             2.239299     True
+104  Suicidal Homing Pedestrian (Trigger 15m, Stop @ 2.5m)    PASS (Stopped)      3.635620             0.523553     True
+105  Suicidal Homing Pedestrian (Trigger 25m, Stop @ 2.5m)    PASS (Timeout)      1.548030             1.133008    False
+106                    Pedestrian Crossing (Trigger 12.0m)    PASS (Stopped)      3.822794             1.138119     True
+107                    Pedestrian Crossing (Trigger 20.0m)    PASS (Timeout)      6.161368             0.704867    False
+108                    Pedestrian Crossing (Trigger 10.0m)  FAIL (Collision)      2.287976             1.048563    False
+109                    Pedestrian Crossing (Trigger 15.0m)    PASS (Timeout)      4.611408             0.733998    False
+110                    Pedestrian Crossing (Trigger 17.0m)    PASS (Timeout)      4.323818             1.070313    False
+111                  Obstructed Pedestrian (Trigger 10.0m)  FAIL (Collision)      1.516517             0.392961    False
+112                  Obstructed Pedestrian (Trigger 12.0m)  FAIL (Collision)      1.593153             0.566366    False
+113                  Obstructed Pedestrian (Trigger 15.0m)    PASS (Stopped)      3.757022             0.316844     True
+114                  Obstructed Pedestrian (Trigger 18.0m)  FAIL (Collision)      1.477538             1.401191    False
+115                 Oncoming Traffic (Offset 3.5m, 40km/h)    PASS (Timeout)      3.491446             0.235322    False
+116                 Oncoming Traffic (Offset 3.5m, 60km/h)    PASS (Timeout)      3.547141             0.545086    False
+117                 Oncoming Traffic (Offset 1.5m, 30km/h)    PASS (Stopped)      2.387054             0.536343     True
+118                 Oncoming Traffic (Offset 1.0m, 60km/h)  FAIL (Collision)      4.538223             0.399955     True
+119                 Oncoming Traffic (Offset 0.0m, 50km/h)    PASS (Stopped)      7.877381             0.370852     True
+120                  Cut-In (StartDist 15.0m, Offset 3.5m)    PASS (Stopped)     14.401032             0.621354     True
+121                   Cut-In (StartDist 8.0m, Offset 3.5m)    PASS (Stopped)      8.528738             0.614450     True
+122                   Cut-In (StartDist 5.0m, Offset 3.5m)    PASS (Timeout)      6.258514             0.607635    False
+123                   Cut-In (StartDist 5.0m, Offset 3.5m)    PASS (Stopped)      5.788001             0.596489     True
+124                  Cut-In (StartDist 10.0m, Offset 3.5m)    PASS (Stopped)      7.791162             0.607011     True
+125               Obstacle on Curve (Dist 40.0m, 30.0km/h)    PASS (Stopped)      7.615530             0.627341     True
+126               Obstacle on Curve (Dist 60.0m, 50.0km/h)  FAIL (Collision)      4.148587             1.837586     True
+127               Obstacle on Curve (Dist 25.0m, 30.0km/h)  FAIL (Collision)      4.163679             0.633196     True
+128               Obstacle on Curve (Dist 60.0m, 30.0km/h)    PASS (Stopped)      6.019636             0.697025     True
