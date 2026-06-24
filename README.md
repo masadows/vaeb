@@ -52,7 +52,7 @@ flowchart TD
 Poniżej znajduje się główna struktura plików i folderów w projekcie:
 ```text
 AED
-|   detect_danger.ipynb
+|   detect_danger.ipynb            # kod do odpalenia dektekcji dla przemieszczającego się pojazdu (pełny kod)
 |   main.py
 |   raport.txt
 |   README.md
